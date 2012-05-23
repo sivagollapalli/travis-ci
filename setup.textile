@@ -1,0 +1,11 @@
+1) clone the repo from git@github.com:sivagollapalli/travis-ci.git
+
+2) bundle install
+
+3) bundle exec rake travis:setup:config
+
+4) bundle exec rake travis:setup:config
+
+5) bundle exec foreman start
+
+6) After server has stared add your git hub keys in config/travis.yml file

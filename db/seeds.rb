@@ -17,6 +17,7 @@ if Rails.env.development?
 
   [Repository, Commit, Request, Build].each{ |klass| klass.reset_column_information }
 
+=begin
   10.times do
     repository = FactoryGirl.create(:seed_repository)
 
@@ -27,4 +28,5 @@ if Rails.env.development?
     repository.last_build_id = repository.last_build.id
     repository.save
   end
+=end
 end

@@ -3,6 +3,7 @@ source :rubygems
 gem 'travis-core',    git: 'git://github.com/travis-ci/travis-core', require: 'travis/engine'
 gem 'travis-support', git: 'git://github.com/travis-ci/travis-support'
 
+gem 'mysql2'
 gem 'rails',                '~> 3.2.3'
 gem 'execjs',               '1.3.0'
 gem 'rake',                 '~> 0.9.2.2'
