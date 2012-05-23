@@ -4,8 +4,8 @@
 
 3) bundle exec rake travis:setup:config
 
-4) bundle exec rake travis:setup:config
+4) Update database.yml with db config and travis.yml file with github keys
 
-5) bundle exec foreman start
+5) bundle exec rake travis:setup
 
-6) After server has stared add your git hub keys in config/travis.yml file
+6) bundle exec foreman start
